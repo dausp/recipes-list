@@ -1,0 +1,166 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Home {
+  flex: 1;
+}
+
+.layout {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  background-color: #003071;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1.05rem;
+}
+
+h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h4 em {
+  font-weight: normal;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 50%;
+}
+.image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+section {
+  background-color: #F9F9F9;
+  padding: 2rem 2rem 1rem;
+  margin: 0 0 1.5rem;
+  border-radius: 2px;
+}
+.ingredients {
+  font-size: 14px;
+  padding-bottom: 0;
+}
+
+.ingredients ul {
+  padding: 0;
+  column-count: 1;
+}
+.ingredients li {
+  margin: 0 10px;
+  padding-bottom: 1rem;
+  break-inside: avoid;
+}
+.ingredients p {
+  margin: 0;
+}
+
+.directions {
+  font-size: 18px;
+}
+
+.special {
+  background-color: rgba(234, 224, 200, 0.25);
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 1rem;
+}
+h3 {
+  margin-top: 0;
+}
+.special h4 {
+  margin: 0;
+}
+
+.special p {
+  margin: 0.5rem 0 0;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+.footer {
+  color: #fff;
+  background-color: #003071;
+  text-align: center;
+}
+.footer p {
+  margin: 0;
+}
+
+.errorMessage {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(161, 15, 15);
+}
+
+.backLink a {
+  position: relative;
+  display: inline-block;
+  background-color: #2a8c80;
+  color: #fff;
+  padding: 0.5rem 1.5rem 0.5rem 2rem;
+  width: auto;
+}
+.backLink a::before {
+  content: '<';
+  position: absolute;
+  margin-left: -1rem;
+}
+
+@media only screen and (min-width: 480px) {
+  .title, .image {
+    width: 50%;
+  }
+  .title {
+    padding: 1rem 1rem 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.17rem;
+  }
+  .ingredients ul {
+    column-count: 2;
+  }
+  .footer p {
+    margin: 1rem 0;
+  }
+}

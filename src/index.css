@@ -1,0 +1,32 @@
+@import-normalize;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+}
+h2 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 600;
+  font-size: 1.17rem;
+}
